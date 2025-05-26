@@ -11,8 +11,9 @@ CREATE TABLE Customer (
 
 CREATE TABLE Category (
     category_id INT PRIMARY KEY,
-    nombre VARCHAR(255),
-    path TEXT
+    nombre VARCHAR(255) NOT NULL,
+    parent_category_id INT NULL,
+    FOREIGN KEY (parent_category_id) REFERENCES Category(category_id)
 );
 
 CREATE TABLE Item (
