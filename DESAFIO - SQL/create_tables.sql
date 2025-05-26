@@ -8,7 +8,7 @@ CREATE TABLE Customer (
     fecha_nacimiento DATE,
     telefono VARCHAR(20)
 );
-
+ 
 CREATE TABLE Category (
     category_id INT PRIMARY KEY,
     nombre VARCHAR(255),
