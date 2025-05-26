@@ -1,0 +1,4 @@
+code,codein,name,high,low,varBid,pctChange,bid,ask,timestamp,create_date
+USD,BRL,Dólar Americano/Real Brasileiro,5.677,5.63351,0.03427,0.607685,5.6737,5.6767,1748283748,2025-05-26 15:22:28
+EUR,BRL,Euro/Real Brasileiro,6.46831,6.41026,0.037243,0.580617,6.45161,6.46831,1748283620,2025-05-26 15:20:20
+BTC,BRL,Bitcoin/Real Brasileiro,629000,610698,9891,1.615,622457,622492,1748283750,2025-05-26 15:22:30
